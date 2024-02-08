@@ -21,8 +21,8 @@ deployment "development" {
     tfc_kubernetes_audience = "k8s.workload.identity"
     tfc_hostname = "https://app.terraform.io"
     tfc_organization_name = "hashi-demos-apj"
-    eks_clusteradmin_arn = "arn:aws:iam::855831148133:role/rogman.rogman_test-developer"
-    eks_clusteradmin_username = "rogman.rogman_test-developer"
+    eks_clusteradmin_arn = "arn:aws:iam::713532411193:role/aws_rchao_test-developer"
+    eks_clusteradmin_username = "aws_rchao_test-developer"
 
     #K8S
     k8s_identity_token_file = identity_token.k8s.jwt_filename
